@@ -52,3 +52,9 @@ if bakiyeKontrol >= 0 {
 
 print ("Kart Bakiyesi Yetersiz. Lütfen Tekrar Deneyin...")
 }
+
+
+// aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+deneme
