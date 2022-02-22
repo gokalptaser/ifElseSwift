@@ -40,3 +40,15 @@ if sunucuyaGirebilirMiyim == true {
 
 
 // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+let abonmanUcret = 59.99
+var kartBakiye = 60.0
+
+var bakiyeKontrol = kartBakiye - abonmanUcret
+
+if bakiyeKontrol >= 0 {
+    print("Abonman Kartınıza Tanımlanmıştır. İyi Günler...")
+}else {
+
+print ("Kart Bakiyesi Yetersiz. Lütfen Tekrar Deneyin...")
+}
