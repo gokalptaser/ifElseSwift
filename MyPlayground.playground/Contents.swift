@@ -40,13 +40,3 @@ if sunucuyaGirebilirMiyim == true {
 
 
 // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-let oyunFiyati = 29.99
-var kartBakiyesi = 200.00
-
-
-if kartBakiyesi - oyunFiyati <= 29.99 {
-
-    print("Satınalım Başarılı. İyi Oyunlar...")
-}
-
