@@ -55,4 +55,32 @@ print ("Kart Bakiyesi Yetersiz. Lütfen Tekrar Deneyin...")
 
 
 // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-yenibirşey
+
+var yumurtaHaslamaBaslangic = 0
+
+let rafadanYumurtaSuresi = 3
+let kayisiYumurtaSuresi = 5
+let katiYumurtaSuresi = 7
+let tasYumurtaSuresi = 10
+
+let rafadanKivam = yumurtaHaslamaBaslangic + rafadanYumurtaSuresi
+let kayisiKivam = yumurtaHaslamaBaslangic + kayisiYumurtaSuresi
+let katiKivam = yumurtaHaslamaBaslangic + katiYumurtaSuresi
+let tasKivam = yumurtaHaslamaBaslangic + tasYumurtaSuresi
+
+if yumurtaHaslamaBaslangic == 3 {
+    
+    print("Yumurtanız Rafadan kıvamına gelmiştir.")
+} else if yumurtaHaslamaBaslangic == 5 {
+    
+    print("Yumurtanız Kayısı kıvamına gelmiştir.")
+} else if yumurtaHaslamaBaslangic == 7 {
+    
+    print ("Yumurtanız Katı kıvamına gelmiştir.")
+} else if yumurtaHaslamaBaslangic == 10 {
+    
+    print ("Yumurtanız Taş kıvamına gelmiştir.")
+} else if yumurtaHaslamaBaslangic >= 10 {
+    
+    print ("Yumurtayı artık ateşten al")
+}
