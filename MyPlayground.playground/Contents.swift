@@ -84,3 +84,55 @@ if yumurtaHaslamaBaslangic == 3 {
     
     print ("Yumurtayı artık ateşten al")
 }
+
+
+// Switch yapıları (if-else kısaltmaları)
+
+let tekerlerkSayisi = 2
+
+switch tekerlerkSayisi {
+case 1:
+    print("Tek teker")
+    
+case 2:
+    print("İki teker")
+case 3:
+    print ("Üç teker")
+case 4:
+    print ("Dört teker")
+default:
+    print("Fazla teker")
+}
+
+
+
+let karakter = "x"
+
+switch karakter {
+case "a","e","ı","i","o","ö","u","ü":
+    print ("Karakter sesli")
+default:
+    print("Karakter sessiz.")
+}
+
+// Aralık Tanımlama
+// x...y -> x dahil ve y dahil
+// x..<y -> dahil ama y dahil değil
+
+let mesafe = 120
+
+switch mesafe {
+case 0...10:
+    print("zorlasan yürürsün")
+    break
+case 11...30:
+    print("bisiklet mesafesi")
+    break
+case 31...100:
+    print ("araba mesafesi")
+    break
+default:
+    print ("bu kadar uzaklaşmak istediğinden emin misin ?")
+    break
+}
+
