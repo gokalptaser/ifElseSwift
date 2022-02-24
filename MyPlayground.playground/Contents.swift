@@ -136,3 +136,35 @@ default:
     break
 }
 
+
+
+//parametreler
+
+func displayPi () {
+    print ("3.14")
+}
+
+func sayMyName  () {
+    print ("Gökalp")
+}
+
+displayPi()
+sayMyName()
+
+//--------------------------------
+
+func triple (value: Int) {
+  
+    let result = value * 3
+    print(result)
+}
+triple(value: 4)
+
+
+func multiply (firstNumber: Int, secondNumber: Int) {
+    let result = firstNumber * secondNumber
+    print(result)
+    
+}
+
+multiply(firstNumber: 5, secondNumber: 9)
