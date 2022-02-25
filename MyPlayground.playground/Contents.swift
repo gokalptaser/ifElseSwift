@@ -151,7 +151,7 @@ func sayMyName  () {
 displayPi()
 sayMyName()
 
-//--------------------------------
+//--------------------------------------
 
 func triple (value: Int) {
   
@@ -160,6 +160,7 @@ func triple (value: Int) {
 }
 triple(value: 4)
 
+//--------------------------------------
 
 func multiply (firstNumber: Int, secondNumber: Int) {
     let result = firstNumber * secondNumber
@@ -168,3 +169,67 @@ func multiply (firstNumber: Int, secondNumber: Int) {
 }
 
 multiply(firstNumber: 5, secondNumber: 9)
+
+//--------------------------------------
+
+func introduceMyself (firstName: String, lastName: String, height: Double) {
+    let fullName = firstName + " " + lastName
+    let text = "Merhaba, ben " + fullName + " ve boyum " + String(height)
+    
+    print(text)
+}
+
+introduceMyself(firstName: "Gökalp", lastName: "Taşer", height: 186)
+
+//--------------------------------------
+
+func herseyiHesapla (ilkDeger: Int, ikinciDeger: Int, sonDeger: Int) {
+    let hesapla = ilkDeger + ikinciDeger + sonDeger
+    let vur = " Hesap Sonucu " + String (hesapla)
+    
+    print(vur)
+}
+
+//--------------------------------------
+
+herseyiHesapla(ilkDeger: 4, ikinciDeger: 7, sonDeger: 29)
+
+func merhabaDe (ilkIsim: String, ve ikinciIsim: String) {
+    let text = ("Merhaba, " + ilkIsim + " ve " + ikinciIsim )
+
+    print (text)
+}
+
+merhabaDe(ilkIsim: "Gökalp", ve: "Veli")
+
+//--------------------------------------
+
+func display (teamName: String, score: Int = 0) {
+    let text = teamName + ":" + String(score)
+    print (text)
+}
+
+display(teamName: "Pipetspor")
+display(teamName: "Osmancık Belediyespor", score: 1)
+//--------------------------------------
+
+func carpma (firstNumber: Int, secondNumber : Int) -> Int {
+    let result = firstNumber * secondNumber
+    return result
+    
+}
+
+let sonuc = carpma(firstNumber: 4, secondNumber: 5)
+
+let resultText = "Çarpma işleminin sonucu: "+String(sonuc)
+print (resultText)
+
+print(carpma(firstNumber: 4, secondNumber: 5))
+
+let result1 = carpma(firstNumber: 3, secondNumber: 5)
+let result2 = carpma(firstNumber: result1, secondNumber: 56)
+let result3 = carpma(firstNumber: result1, secondNumber: result2)
+
+print(result1)
+print(result2)
+print(result3)
