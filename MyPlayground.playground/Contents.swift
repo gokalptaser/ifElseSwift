@@ -236,5 +236,87 @@ print(result2)
 print(result3)
 
 //--------------------------------------
+//Stringler hakkında birkaç kullanım şekli
 
-25Feb2022
+let denemeYazi = """
+ahey
+ahey
+ahey
+bu şekilde uzun metinler yazıldığı veya yeni satıra geçildiği zaman 3 tırnak atarak yazacağımız şeyi uzatabiliriz
+ama alt satıra geçersek konsolda da alt satıra geçecek o yüzden dikkatli kullanmak lazım
+"""
+print(denemeYazi)
+
+let merhabaDunya = "Kodlama dünyasında \"Merhaba Dünya\" ifadesi çok sık kullanılır"
+print(merhabaDunya)
+
+
+var myString = "" // -> Boş String Örneği (içi ya bizim yada kullanıcı tarafından doldurulmaya hazır)
+
+let string1 = "deneme"
+let string2 = "deneme2"
+
+let fullText = string1 + string2
+print (fullText)
+
+
+var karsilamaMetni = ""
+
+karsilamaMetni += "Merhaba, "
+karsilamaMetni += "ben Gökalp"
+
+
+
+let name = "Gökalp"
+let age = "19"
+
+print ("Merhaba, ben \(name) ve \(age) yaşındayım")
+
+
+let number1 = 5
+let number2 = 15
+
+print ("\(number1) X \(number2) = \(number1 * number2)")
+
+//--------------------------------------
+
+let sifre = "Kolaybirsifre"
+let sifreTekrar = "Kolaybirsifre"
+
+if sifre == sifreTekrar {
+    
+    print("Şifreler uyumlu")
+} else {
+    print("Şifreler birbiri ile uyuşmuyor")
+}
+
+//--------------------------------------
+
+let isim = "Gökalp"
+
+if isim.lowercased() == "GÖkaLp".lowercased() {
+    
+    print ("İsimler Uyuşuyor")
+}
+
+//--------------------------------------
+
+let kliseMetin = "Hello, world"
+kliseMetin.hasPrefix("Hello")  // --> (Prefix, Cümle Başı)
+print(kliseMetin.hasPrefix("Hello"))
+
+//--------------------------------------
+
+let kliseIkinciMetin = "Tamam da niye ordasın ?"
+kliseIkinciMetin.hasSuffix("?")                   // --> (Suffix, Cümle Sonu [Literal cümlenin sonundakine bakıyor noktalama işareti olsa dahi])
+print(kliseIkinciMetin.hasSuffix("?"))
+
+//--------------------------------------
+
+let password = "gökalp"
+let count = password.count
+
+if password.count < 8 {
+    
+    print("Şifren en az 8 karakter içermeli")
+}
