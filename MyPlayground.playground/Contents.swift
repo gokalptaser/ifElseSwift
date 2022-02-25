@@ -211,6 +211,7 @@ func display (teamName: String, score: Int = 0) {
 
 display(teamName: "Pipetspor")
 display(teamName: "Osmancık Belediyespor", score: 1)
+
 //--------------------------------------
 
 func carpma (firstNumber: Int, secondNumber : Int) -> Int {
@@ -233,3 +234,5 @@ let result3 = carpma(firstNumber: result1, secondNumber: result2)
 print(result1)
 print(result2)
 print(result3)
+
+//--------------------------------------
