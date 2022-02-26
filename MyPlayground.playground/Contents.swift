@@ -320,3 +320,35 @@ if password.count < 8 {
     
     print("Şifren en az 8 karakter içermeli")
 }
+
+//--------------------------------------
+
+
+struct Boy {
+    var incCinsindenBoy: Double
+    
+    var santimetreCinsindenBoy: Double
+    
+    init(incCinsindenBoy: Double) {
+        self.incCinsindenBoy = incCinsindenBoy
+        self.santimetreCinsindenBoy = incCinsindenBoy*2.54
+    }
+    
+    init(santimetreCinsindenBoy: Double) {
+        self.santimetreCinsindenBoy = santimetreCinsindenBoy
+        self.incCinsindenBoy = santimetreCinsindenBoy/2.54
+    }
+}
+
+//--------------------------------------
+
+let feetCinsindenMetre = 3.28084
+let metreCinsindenMil = 1600.0
+
+struct KosuAntrenmani {
+    var mesafe: Double
+    var sure: Double
+    var yukselti: Double
+
+    
+    }
