@@ -352,3 +352,5 @@ struct KosuAntrenmani {
 
     
     }
+
+//26.Feb.2022
