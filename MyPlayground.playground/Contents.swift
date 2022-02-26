@@ -354,3 +354,4 @@ struct KosuAntrenmani {
     }
 
 //26.Feb.2022
+//branch deneme
